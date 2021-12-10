@@ -27,9 +27,14 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className={styles.title}>
-
+            <h1>Nicholas Hellmers</h1>
+            <h2>Software Developer</h2>
           </div>
+          <div className={styles.spacer_header}></div>
         </div>
+        <body>
+          
+        </body>
       </main>
 
       <footer className={styles.footer}>

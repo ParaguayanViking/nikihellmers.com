@@ -1,6 +1,7 @@
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
   text-align: center;
   background-color: #212A37;
   height: 70vh;
@@ -30,4 +31,20 @@
   width: 500px;
   color: #FFFFFF;
   font-size: larger;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFFFFF;
+  font-size: x-large;
+}.title h1 {
+  font-weight: 450;
+  letter-spacing: 10px;
+} .title h2 {
+  font-weight: 450;
+  letter-spacing: 5px;
+}
+.spacer_header {
+  height: 80px;
 }
