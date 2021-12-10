@@ -16,13 +16,18 @@ const Home: NextPage = () => {
         <div className={styles.header}>
           <div className={styles.menu}>
             <div className={styles.menu_logo}>
-
+              <a href="">
+                <h3>LOGO</h3>
+              </a>
             </div>
-            <div className={styles.menu_bottons}>
+            <div className={styles.menu_items}>
               <a href="#">Portfolio</a>
               <a href="#">Contact</a>
               <a href="#">GitHub</a>
             </div>
+          </div>
+          <div className={styles.title}>
+
           </div>
         </div>
       </main>
