@@ -19,9 +19,9 @@ const Home: NextPage = () => {
             <div className={styles.menu_logo}></div>
             </a>
             <div className={styles.menu_items}>
-              <a href="#">Portfolio</a>
-              <a href="#">Contact</a>
-              <a href="#">GitHub</a>
+              <a href="portfolio">Portfolio</a>
+              <a href="">Contact</a>
+              <a href="">GitHub</a>
             </div>
           </div>
           <div className={styles.title}>
