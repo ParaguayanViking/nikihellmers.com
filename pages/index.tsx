@@ -1,7 +1,20 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+
+interface SimpleInformation {
+  title: string;
+  info: string;
+}
+
+function InfoBox(props: SimpleInformation) {
+  return (
+    <div>
+      <h2>{props.title}</h2>
+      <p>{props.info}</p>
+    </div>
+  )
+}
 
 const Home: NextPage = () => {
   return (
@@ -31,7 +44,7 @@ const Home: NextPage = () => {
           <div className={styles.spacer_header}></div>
         </div>
         <body>
-          
+          <InfoBox title={'hello'} info={'hello 2'}/>
         </body>
       </main>
 
