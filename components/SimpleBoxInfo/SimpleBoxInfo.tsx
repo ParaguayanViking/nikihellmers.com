@@ -4,11 +4,8 @@
     THIS COMPONENT HOUSES A SIMPLE BOX WITH TITLE + INFORMATION
 
 */
-
+import styles from './SimpleBoxInfo.module.css'
 // Styling for the component
-const styles={
-  textAlign: 'center',
-}
 
 interface SimpleInformation {
   title: string;
@@ -17,9 +14,13 @@ interface SimpleInformation {
   
 function SimpleBoxInfo(props: SimpleInformation) {
   return (
-    <div className='styles'>
-      <h2>{props.title}</h2>
-      <p>{props.info}</p>
+    <div className={styles.wrapper}>
+      <div>
+        <h2>{props.title}</h2>
+      </div>
+      <div>
+        <p>{props.info}</p>
+      </div>
     </div>
   )
 }
