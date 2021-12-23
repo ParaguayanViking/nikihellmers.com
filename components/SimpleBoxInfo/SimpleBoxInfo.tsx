@@ -15,12 +15,8 @@ interface SimpleInformation {
 function SimpleBoxInfo(props: SimpleInformation) {
   return (
     <div className={styles.wrapper}>
-      <div>
         <h2>{props.title}</h2>
-      </div>
-      <div>
         <p>{props.info}</p>
-      </div>
     </div>
   )
 }

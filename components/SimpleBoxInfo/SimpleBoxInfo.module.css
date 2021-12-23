@@ -1,4 +1,12 @@
 .wrapper {
     text-align: center;
     width: 500px;
+} .wrapper h2 {
+    letter-spacing: 4px;
+    line-height: 30px;
+    font-size: x-large;
+} .wrapper p {
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-size: large;
 }

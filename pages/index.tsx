@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import SimpleBoxInfo from '../components/SimpleBoxInfo/SimpleBoxInfo'
+import QuickKnownTechs from '../components/QuickKnownTechs/QuickKnownTechs'
 
 const Home: NextPage = () => {
   return (
@@ -30,12 +31,11 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.spacer_header}></div>
         </div>
-        <body>
-          <SimpleBoxInfo 
-          title={'About me'} 
-          info={'This is the information about me'}
-          />
-        </body>
+        <SimpleBoxInfo 
+        title={'About me'} 
+        info={'This is the information about me. This is the information about me. This is the information about me. This is the information about me.'}
+        />
+        <QuickKnownTechs/>
       </main>
 
       <footer className={styles.footer}>
