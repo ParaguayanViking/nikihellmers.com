@@ -1,4 +1,8 @@
 .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
     text-align: center;
     width: 500px;
 } .wrapper h2 {

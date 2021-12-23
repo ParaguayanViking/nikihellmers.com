@@ -59,3 +59,8 @@
 .spacer_header {
   height: 80px;
 }
+.info2 {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+}

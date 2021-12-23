@@ -19,7 +19,6 @@ function QuickKnownTechs() {
                 <li>CSS</li>
                 <li>Python</li>
             </ul>
-
         </div>
     </div>
   )

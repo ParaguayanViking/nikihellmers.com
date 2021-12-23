@@ -32,10 +32,20 @@ const Home: NextPage = () => {
           <div className={styles.spacer_header}></div>
         </div>
         <SimpleBoxInfo 
-        title={'About me'} 
-        info={'This is the information about me. This is the information about me. This is the information about me. This is the information about me.'}
+        title={'About this website'} 
+        info={"Hi, this is the brief overview to my personal website. This homepage supports a summary of all the stuff that I've done so far. I you'd like to see my projects more in detail, click the portfolio button up on the menu."}
         />
         <QuickKnownTechs/>
+        <div className={styles.info2}>
+        <SimpleBoxInfo 
+        title={'My background'} 
+        info={"Hi, this is the brief overview to my personal website. This homepage supports a summary of all the stuff that I've done so far. I you'd like to see my projects more in detail, click the portfolio button up on the menu."}
+        />
+        <SimpleBoxInfo 
+        title={''} 
+        info={"Hi, this is the brief overview to my personal website. This homepage supports a summary of all the stuff that I've done so far. I you'd like to see my projects more in detail, click the portfolio button up on the menu."}
+        />
+        </div>
       </main>
 
       <footer className={styles.footer}>
