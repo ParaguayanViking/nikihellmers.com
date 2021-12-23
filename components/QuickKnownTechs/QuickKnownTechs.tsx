@@ -5,7 +5,6 @@
 
 */
 import styles from './QuickKnownTechs.module.css'
-// Styling for the component
   
 function QuickKnownTechs() {
   return (
@@ -13,10 +12,12 @@ function QuickKnownTechs() {
         <h2>Known Techs</h2>
         <div className={styles.list}>
             <ul>
-                <li>ABC</li>
-                <li>ABC</li>
-                <li>ABC</li>
-                <li>ABC</li>
+                <li>JavaScript/TypeScript</li>
+                <li>C++</li>
+                <li>React/NEXTjs</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
             </ul>
 
         </div>
