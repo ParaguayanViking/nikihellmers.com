@@ -59,8 +59,14 @@
 .spacer_header {
   height: 80px;
 }
+.info2Wrapper h2 {
+  letter-spacing: 4px;
+  line-height: 30px;
+  font-size: x-large;
+  text-align: center;
+}
 .info2 {
   display: flex;
-  gap: 30px;
+  gap: 2rem;
   flex-direction: row;
 }

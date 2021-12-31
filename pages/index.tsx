@@ -22,7 +22,7 @@ const Home: NextPage = () => {
             <div className={styles.menu_items}>
               <a href="portfolio">Portfolio</a>
               <a href="">Contact</a>
-              <a href="">GitHub</a>
+              <a href="https://github.com/ParaguayanViking" target='_blank'>GitHub</a>
             </div>
           </div>
           <div className={styles.title}>
@@ -36,21 +36,24 @@ const Home: NextPage = () => {
         info={"Hi, this is the brief overview to my personal website. This homepage supports a summary of all the stuff that I've done so far. I you'd like to see my projects more in detail, click the portfolio button up on the menu."}
         />
         <QuickKnownTechs/>
-        <div className={styles.info2}>
-        <SimpleBoxInfo 
-        title={'My background'} 
-        info={"Hi, this is the brief overview to my personal website. This homepage supports a summary of all the stuff that I've done so far. I you'd like to see my projects more in detail, click the portfolio button up on the menu."}
-        />
-        <SimpleBoxInfo 
-        title={''} 
-        info={"Hi, this is the brief overview to my personal website. This homepage supports a summary of all the stuff that I've done so far. I you'd like to see my projects more in detail, click the portfolio button up on the menu."}
-        />
+        <div className={styles.info2Wrapper}>
+          <h2>My Background</h2>
+          <div className={styles.info2}>
+          <SimpleBoxInfo 
+          title={''}
+          info={"Hi, this is the brief overview to my personal website. This homepage supports a summary of all the stuff that I've done so far. I you'd like to see my projects more in detail, click the portfolio button up on the menu."}
+          />
+          <SimpleBoxInfo 
+          title={''} 
+          info={"Hi, this is the brief overview to my personal website. This homepage supports a summary of all the stuff that I've done so far. I you'd like to see my projects more in detail, click the portfolio button up on the menu."}
+          />
+          </div>
         </div>
+      <footer className={styles.footer}>
+        <h1>footer</h1>
+      </footer>
       </main>
 
-      <footer className={styles.footer}>
-
-      </footer>
     </div>
   )
 }

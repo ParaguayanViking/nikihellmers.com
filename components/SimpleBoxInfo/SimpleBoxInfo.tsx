@@ -13,12 +13,21 @@ interface SimpleInformation {
 }
   
 function SimpleBoxInfo(props: SimpleInformation) {
-  return (
-    <div className={styles.wrapper}>
-        <h2>{props.title}</h2>
-        <p>{props.info}</p>
-    </div>
-  )
+  
+  if(props.title) {
+    return (
+      <div className={styles.wrapper}>
+          <h2>{props.title}</h2>
+          <p>{props.info}</p>
+      </div>
+    )
+  } else {
+    return (
+      <div className={styles.wrapper}>
+          <p>{props.info}</p>
+      </div>
+    )
+  }
 }
 
 export default SimpleBoxInfo
