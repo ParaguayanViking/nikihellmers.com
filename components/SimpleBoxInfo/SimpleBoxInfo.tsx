@@ -8,8 +8,8 @@ import styles from './SimpleBoxInfo.module.css'
 // Styling for the component
 
 interface SimpleInformation {
-  title: string;
-  info: string;
+  title: string
+  info: string
 }
   
 function SimpleBoxInfo(props: SimpleInformation) {
