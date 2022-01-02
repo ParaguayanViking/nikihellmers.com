@@ -9,12 +9,13 @@ interface SmallProjectBoxInfo {
 
 function SmallProjectBox(props: SmallProjectBoxInfo) {
     return(
-        <div>
-
-            <div>
-
+        <a href={props.projectUrl} target='_blank'>
+            <div className={styles.boxWrapper}>
+                <div>
+                    <h3>{props.title}</h3>
+                </div>
             </div>
-        </div>
+        </a>
     )
 }
 

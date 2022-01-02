@@ -1,14 +1,23 @@
 import SmallProjectBox from "../SmallProjectBox/SmallProjectBox"
+import styles from './ProjectDisplayer.module.css'
+
+let infoArray: any = []
+
+for(let i: number = 0; i < 10; i++) {
+    infoArray.push(<SmallProjectBox
+        imgUrl="img"
+        title="title"
+        description="desc"
+        projectUrl="https://www.google.com/"
+        />)
+}
 
 function ProjectDisplayer() {
-    for(let i: number = 0; i > 10; i++) {
-        return(
-            <SmallProjectBox
-            imgUrl=""
-            title=""
-            description=""
-            projectUrl=""
-            />
-        )
-    }
+    return(
+        <div className= {styles.displayerWrapper}>
+            {infoArray}
+        </div>
+    )
 }
+
+export default ProjectDisplayer

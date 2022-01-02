@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
-
+import ProjectDisplayer from '../components/ProjectWrapper/ProjectDisplayer'
 
 
 const Portfolio: NextPage = () => {
     return (
         <div>
-            <h1>Hello</h1>
+            <ProjectDisplayer/>
         </div>
     )
   }
