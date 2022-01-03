@@ -12,7 +12,7 @@ function SmallProjectBox(props: SmallProjectBoxInfo) {
     return(
         <a href={props.projectUrl} target='_blank'>
             <div className={styles.boxWrapper}>
-                <div>
+                <div className={styles.boxText}>
                     <h3>{props.title}</h3>
                 </div>
             </div>
