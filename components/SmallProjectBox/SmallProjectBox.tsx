@@ -1,6 +1,7 @@
 import styles from './SmallProjectBox.module.css'
 
 interface SmallProjectBoxInfo {
+    key: number;
     imgUrl: string
     title: string
     description: string

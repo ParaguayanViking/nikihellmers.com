@@ -4,9 +4,10 @@ import ProjectDisplayer from '../components/ProjectWrapper/ProjectDisplayer'
 
 const Portfolio: NextPage = () => {
     return (
-        <div>
+        <main>
+
             <ProjectDisplayer/>
-        </div>
+        </main>
     )
   }
   

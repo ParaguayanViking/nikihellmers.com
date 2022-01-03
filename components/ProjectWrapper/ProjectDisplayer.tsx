@@ -5,6 +5,7 @@ let infoArray: any = []
 
 for(let i: number = 0; i < 10; i++) {
     infoArray.push(<SmallProjectBox
+        key={i}
         imgUrl="img"
         title="title"
         description="desc"
