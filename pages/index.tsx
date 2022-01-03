@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Menu from '../components/Menu/Menu'
 import SimpleBoxInfo from '../components/SimpleBoxInfo/SimpleBoxInfo'
 import QuickKnownTechs from '../components/QuickKnownTechs/QuickKnownTechs'
 
@@ -15,16 +16,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <div className={styles.header}>
-          <div className={styles.menu}>
-            <a href="">
-            <div className={styles.menu_logo}></div>
-            </a>
-            <div className={styles.menu_items}>
-              <a href="portfolio">Portfolio</a>
-              <a href="">Contact</a>
-              <a href="https://github.com/ParaguayanViking" target='_blank'>GitHub</a>
-            </div>
-          </div>
+          <Menu/>
           <div className={styles.title}>
             <h1>Nicholas Hellmers</h1>
             <h2>Software Developer</h2>

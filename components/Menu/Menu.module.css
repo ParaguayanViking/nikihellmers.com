@@ -1,0 +1,30 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    padding: 0 10%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+  }
+  .menu_logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+    background-image: url(../../public/logo.svg);
+    background-size: contain;
+    height: 48px;
+    width: 67px;
+  }
+  .menu_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    color: #FFFFFF;
+    font-size: larger;
+  }
