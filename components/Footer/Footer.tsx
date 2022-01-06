@@ -12,7 +12,7 @@ function Footer() {
             <h1>Section 3</h1>
         </div>
         <div>
-            <h1>Section 3</h1>
+            <h1>Section 4</h1>
         </div>
     </div>
 }
