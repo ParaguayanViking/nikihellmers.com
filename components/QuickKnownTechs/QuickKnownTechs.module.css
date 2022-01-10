@@ -10,12 +10,12 @@
 .list {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-
 } .list ul{
     padding: 0;
-    width: 800px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     list-style: none;
     gap: 30px;

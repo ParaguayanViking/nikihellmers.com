@@ -14,3 +14,9 @@
     line-height: 50px;
     font-size: large;
 }
+@media only screen 
+and (max-device-width: 600px){ 
+    .wrapper {
+        width: 90vw;
+    }
+}

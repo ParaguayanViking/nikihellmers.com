@@ -13,11 +13,18 @@ function QuickKnownTechs() {
         <div className={styles.list}>
             <ul>
                 <li>JavaScript/TypeScript</li>
+                  <li>||</li>
                 <li>C++</li>
+                  <li>||</li>
                 <li>React/NEXTjs</li>
+                  <li>||</li>
                 <li>HTML</li>
+                  <li>||</li>
                 <li>CSS</li>
+                  <li>||</li>
                 <li>Python</li>
+                  <li>||</li>
+                <li>Pytorch</li>
             </ul>
         </div>
     </div>
