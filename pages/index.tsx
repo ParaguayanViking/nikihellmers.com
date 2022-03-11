@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Menu from '../components/Menu/Menu'
 import SimpleBoxInfo from '../components/SimpleBoxInfo/SimpleBoxInfo'
 import QuickKnownTechs from '../components/QuickKnownTechs/QuickKnownTechs'
+import Footer from '../components/Footer/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -41,11 +42,8 @@ const Home: NextPage = () => {
           />
           </div>
         </div>
-      <footer className={styles.footer}>
-        <h1>footer</h1>
-      </footer>
+        <Footer/>
       </main>
-
     </div>
   )
 }

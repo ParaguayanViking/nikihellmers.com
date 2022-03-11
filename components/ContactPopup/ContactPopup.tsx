@@ -1,5 +1,4 @@
-import styles from './Menu.module.css'
-import ContactPopup from "../ContactPopup/ContactPopup"
+import styles from './ContactPopup.module.css'
 
 function Menu() {
     return(
