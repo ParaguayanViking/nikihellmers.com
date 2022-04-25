@@ -1,5 +1,9 @@
 .wrapper {
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
     background-color: #282c34;
     color: #ffffff;
     padding: 30px 0;
@@ -9,16 +13,35 @@
 }
 .list {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-} .list ul{
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    list-style: none;
-    gap: 30px;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 50px;
+    max-width: 75%;
+}
+.box {
+    width: 150px;
+    height: 175px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#cpp {
+    background-image: url(../../images/cpp-icon.svg);
+}
+#js {
+    background-image: url(../../images/JavaScript-icon.svg);
+}
+#njs {
+    background-image: url(../../images/Nextjs-icon.svg);
+}
+#py {
+    background-image: url(../../images/Python-icon.svg);
+}
+#react {
+    background-image: url(../../images/React-icon.svg);
+}
+#ts {
+    background-image: url(../../images/Typescript-icon.svg);
 }

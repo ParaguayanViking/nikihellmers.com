@@ -4,7 +4,7 @@ function Footer() {
     return(
         <div className={styles.footerWrapper}>
             <div>
-                
+                Hello
             </div>
         </div>
     )
